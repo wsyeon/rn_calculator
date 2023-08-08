@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet, Platform} from 'react-native';
 
-const Result = () => {
+const Result = ({inputs}) => {
   return (
     <View style={styles.block}>
-      <Text>입력갑 && 결과값</Text>
+      <Text style={{color: '#fff', fontSize: 24}}>{inputs}</Text>
     </View>
   );
 };
